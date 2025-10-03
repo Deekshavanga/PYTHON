@@ -24,4 +24,9 @@ else:
     print("it is a odd number")
 
 
-
+list=[1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10]
+k=set(list)
+print(k)
+k.add(12)
+k.add(12)
+print(k)
