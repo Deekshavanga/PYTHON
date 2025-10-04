@@ -65,6 +65,31 @@ except Exception as e:
 finally:
     print("Execution finished")
  
+x=2+3j
+print(x.real)
+print(x.imag)
+print(type(x))
+
+functions
+
+def sum(a,b):
+    return a+b
+def diff(a,b):
+    return a-b
+def prod(a,b):
+    return a*b
+a,b=10,2
+s=sum(a,b)
+print(s)
+d=diff(a,b)
+print(d)
+n=prod(a,b)
+print(n)
+
+
+
+
+
 
 
 
